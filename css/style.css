@@ -89,7 +89,7 @@ a:hover {
     position: relative;
     display: block;
     border-radius: 5px;
-    width: 55%;
+    width: 50%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -128,7 +128,7 @@ a:hover {
     position: relative;
     display: block;
     border-radius: 5px;
-    width: 55%;
+    width: 50%;
     height: 200%;
     margin-left: auto;
     margin-right: auto;
@@ -234,15 +234,15 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     height: auto;
-    width: 95%;
+    width: auto;
     margin: 5% auto 5% auto;
-
+    justify-content: center;
 }
 
-.main .textarea .mainpanel .contents .contentTable .child {
+.main .textarea .mainpanel .contents .contentTable .contentbox {
     width: 192px;
     height: 108px;
-    margin: auto;
+    margin: auto auto auto auto;
 }
 
 
@@ -257,6 +257,27 @@ a:hover {
     text-align: center;
     overflow: hidden;
     margin-top: 2%;
+}
+
+.main .textarea .mainpanel .agents .agentsTable {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    width: 95%;
+    margin: 5% auto 5% auto;
+    justify-content: center;
+    flex-basis: 20%;
+    
+}
+
+.main .textarea .mainpanel .agents .agentsTable .agentsbox {
+    width: 124px;
+    height: 190px;
+    margin: 5% auto 5% auto;
+    font-family: rubik_Regular;
+    color: #ed4443;
+    text-align: center;
 }
 
 
