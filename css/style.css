@@ -1,0 +1,447 @@
+/* TODO */
+/*
+    - Alle Größen bis auf width auf % ändern.
+    -
+*/
+
+/* Striche wie dieser sind zur abgrezung von unterschiedlichen Funktionen gedacht (orientierung) */
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* EIGENE FONTS (alle im fonts Ordner)*/
+
+@font-face {
+    font-family: rubik_light;
+    src: url('../fonts/index/rubik/Rubik-Light.ttf');
+}
+
+@font-face {
+    font-family: rubik_bold;
+    src: url('../fonts/index/rubik/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: rubik_Regular;
+    src: url('../fonts/index/rubik/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: rubik_SemiBold;
+    src: url('../fonts/index/rubik/Rubik-SemiBold.ttf');
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* EIGENE SCROLLBAR (Chrome) */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #081017
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #0E1923;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #0E1923;
+}
+
+/* BASE ELEMENTS (Hintergrund Farbe)*/
+
+
+body {
+    background-color: #081017;
+}
+
+fieldset {
+    border: 1px solid #F8484D;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* Hyperlink Farben */
+
+a:link {
+    color: #ed4443;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ed4443;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e5a098;
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* HEADER (Über MAIN Panel) */
+
+.header {
+    background-color: transparent;
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    width: 55%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    
+}
+
+.header .HeaderText {
+    font-family: rubik_Regular;
+    color: #E6E6E6;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.header .NavigationText {
+    font-family: rubik_Regular;
+    color: #E6E6E6;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: #0E1923;
+    height: 30%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* Main Panel Content */
+
+.main {
+    background-color: #0E1923;
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    width: 55%;
+    height: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border-top-style: solid;
+    border-top-color: #F8484D;
+    border-top-width: 5px;      
+}
+
+/* TEXT AREA */
+
+.main .textarea {
+    background-color: #0E1923;
+    position: relative;
+    display: block;
+    border-radius: 15px;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: rubik_light;
+    overflow: hidden;
+    border-color: red;
+}
+
+.main .textarea .mainpanel {
+    background-color: #0E1923;
+    position: absolute;
+    display: inline-block;
+    width: 73%;
+    height: auto;
+    font-family: rubik_light;
+    overflow: hidden;
+}
+
+.main .textarea .sidepanel {
+    background-color: #0E1923;
+    position: absolute;
+    display: inline-block;
+    border-radius: 5px;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    left: 74.5%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* WELCOME */
+
+.main .textarea .mainpanel .welcome {   
+    background-color: #081017;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .textarea .mainpanel .welcome .welcometextarea {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 95%;
+    height: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main .textarea .mainpanel .welcome .welcometextarea .title {
+    position: relative;
+    color: #E6E6E6;
+    font-family: rubik_Bold;
+}
+
+.main .textarea .mainpanel .welcome .welcometextarea .text {
+    position: relative;
+    color: #E6E6E6;
+    font-family: rubik_Regular;
+
+}
+
+/* CONTENTS */
+
+.main .textarea .mainpanel .contents {
+    background-color: #081017;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+
+.main .textarea .mainpanel .contents .contentTable {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    width: 95%;
+    margin: 5% auto 5% auto;
+
+}
+
+.main .textarea .mainpanel .contents .contentTable .child {
+    width: 192px;
+    height: 108px;
+    margin: auto;
+}
+
+
+/* AGENTS */
+
+.main .textarea .mainpanel .agents {
+    background-color: #081017;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+
+/* LAST UPDATE */
+
+.main .textarea .mainpanel .lastupdate {
+    background-color: #081017;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+/* MAIN PANEL DESIGN */
+
+.MainPanelTitle {
+    background: #F8484D;
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.MainPanelTitle .Text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; /* Gleiche Höhe wie MainPanelTitle */
+    color: #E6E6E6;
+    font-family: rubik_bold;
+    font-size: large;
+}
+
+
+
+.MainPenelContent {
+    background: #081017;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* SIDE PANEL */
+
+/* HTL PANEL */
+
+.main .textarea .sidepanel .htl {
+    background: #081017;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #E6E6E6;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+/* PLAY VALORANT PANEL */
+
+.main .textarea .sidepanel .play {
+    background: #081017;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center; 
+    color: #E6E6E6;
+    overflow: hidden;
+    margin-bottom: 5%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* VALORANT ESPORTS PANEL */
+
+.main .textarea .sidepanel .esports {
+    background: #081017;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    color: #E6E6E6;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+/* OTHER RIOT GAMES GAMES PANEL*/
+
+.main .textarea .sidepanel .riotgames {
+    background: #081017;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    color: #E6E6E6;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+/* VALORANT TWITTER FEED PANEL */
+
+.main .textarea .sidepanel .twitterfeed {
+    background: #081017;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    color: #E6E6E6;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* SIDE PANEL DESIGN (Alle) */
+
+.SidePanelTitle{
+    background: #F8484D;
+    display: block;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    font-family: rubik_bold;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    top: 0;
+}
+
+.SidePanelTitle .Text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; /* Gleiche Höhe wie SidePanelTitle */
+    color: #E6E6E6;
+    font-family: rubik_bold;
+}
+
+.SidePanelContent {
+    background: #081017;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+    position: static;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* TABLE DESIGNS (Im Sidepanel) */
+
+.table {
+    position: relative;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
