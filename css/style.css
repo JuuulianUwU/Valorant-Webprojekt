@@ -232,17 +232,18 @@ a:hover {
 .main .textarea .mainpanel .contents .contentTable {
     list-style: none;
     display: flex;
-    flex-flow: row wrap;
     height: auto;
+    position: relative;
     width: auto;
-    margin: 5% auto 5% auto;
+    margin: 5% 2.5% 5% 2.5%;
+    flex-basis: auto;
     justify-content: center;
+    gap: 15px;
 }
 
 .main .textarea .mainpanel .contents .contentTable .contentbox {
     width: 192px;
     height: 108px;
-    margin: auto auto auto auto;
 }
 
 
