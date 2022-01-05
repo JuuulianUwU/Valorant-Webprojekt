@@ -2,8 +2,8 @@
 
 - 🔭 Thema: Valorant
 - 🌱 Geschrieben in HTML [<img style="float: right;" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />](https://developer.mozilla.org/en-US/docs/Web/HTML) und CSS [<img style="float: right;" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"/>](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- 🥅 Ziele: [Webseite](https://valorant.fandom.com/wiki/VALORANT_Wiki) nachzubauen 🤣
-- ⚡ Proejekt gestartet am 1. Oktober 2021
+- 🥅 Ziel: [Webseite](https://valorant.fandom.com/wiki/VALORANT_Wiki) nachzubauen 🤣
+- ⚡ Projekt gestartet am 1. Oktober 2021
 
 ### Sprachen and Tools:
 
