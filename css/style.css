@@ -89,7 +89,7 @@ a:hover {
     position: relative;
     display: block;
     border-radius: 5px;
-    width: 50%;
+    width: 60%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -128,7 +128,7 @@ a:hover {
     position: relative;
     display: block;
     border-radius: 5px;
-    width: 50%;
+    width: 60%;
     height: 200%;
     margin-left: auto;
     margin-right: auto;
@@ -152,6 +152,26 @@ a:hover {
     font-family: rubik_light;
     overflow: hidden;
     border-color: red;
+}
+
+.main .textarea .home {
+    font-size: xx-large;
+    color: #E6E6E6;
+    font-weight: ligther;
+    margin-top: 50px;
+    font-family: rubik_Light;
+    position: relative;
+    display: inline-block;
+}
+
+.main .textarea .viewsource {
+    position: relative;
+    display: block;
+    font-size: normal;
+    color: #ed4443;
+    margin-top: 50px;
+    font-family: rubik_SemiBold;
+    float: right;
 }
 
 .main .textarea .mainpanel {
