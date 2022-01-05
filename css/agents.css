@@ -1,0 +1,28 @@
+
+
+.textbox {
+    position: absolute;
+    display: block;
+    width: 60%;
+    height: auto;
+}
+
+.textbox .agenttext {
+    color: #E6E6E6;
+    font-family: rubik_Regular;
+    font-size: large;
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: 5px;
+}
+
+
+.imagebox {
+    top: 3%;
+    position: absolute;
+    display: inline-block;
+    width: 35%;
+    height: auto;
+    text-align: center;
+    left: 60%;
+}

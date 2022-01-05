@@ -20,9 +20,9 @@
     src: url('../fonts/index/rubik/Rubik-SemiBold.ttf');
 }
 
-/* WELCOME */
+/* WILKOMMENSNACHRICHT */
 
-.main .textarea .mainpanel .welcome {   
+.welcome {   
     background-color: #081017;
     border-radius: 10px;
     position: relative;
@@ -34,7 +34,7 @@
     margin-right: auto;
 }
 
-.main .textarea .mainpanel .welcome .welcometextarea {
+.welcome .welcometextarea {
     position: relative;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -45,22 +45,22 @@
     text-align: center;
 }
 
-.main .textarea .mainpanel .welcome .welcometextarea .title {
+.welcome .welcometextarea .title {
     position: relative;
     color: #E6E6E6;
     font-family: rubik_Bold;
 }
 
-.main .textarea .mainpanel .welcome .welcometextarea .text {
+.welcome .welcometextarea .text {
     position: relative;
     color: #E6E6E6;
     font-family: rubik_Regular;
 
 }
 
-/* CONTENTS */
+/* INHALT */
 
-.main .textarea .mainpanel .contents {
+.contents {
     background-color: #081017;
     position: relative;
     display: inline-block;
@@ -71,8 +71,7 @@
     margin-top: 2%;
 }
 
-
-.main .textarea .mainpanel .contents .contentTable {
+.contents .contentTable {
     list-style: none;
     display: flex;
     height: auto;
@@ -84,17 +83,15 @@
     gap: 15px;
 }
 
-.main .textarea .mainpanel .contents .contentTable .contentbox {
+.contents .contentTable .contentbox {
     width: 192px;
     height: 108px;
     border: #0E1923 solid 0.5px;
 }
 
+/* AGENTEN */
 
-
-/* AGENTS */
-
-.main .textarea .mainpanel .agents {
+.agents {
     background-color: #081017;
     position: relative;
     display: inline-block;
@@ -105,7 +102,7 @@
     margin-top: 2%;
 }
 
-.main .textarea .mainpanel .agents .agentsTable {
+.agents .agentsTable {
     list-style: none;
     display: flex;
     flex-flow: row wrap;
@@ -117,7 +114,7 @@
     
 }
 
-.main .textarea .mainpanel .agents .agentsTable .agentsbox {
+.agents .agentsTable .agentsbox {
     width: 124px;
     height: 190px;
     margin: 5% auto 5% auto;
@@ -127,9 +124,9 @@
 }
 
 
-/* LAST UPDATE */
+/* LETZTES UPDATE */
 
-.main .textarea .mainpanel .lastupdate {
+.lastupdate {
     background-color: #081017;
     position: relative;
     display: inline-block;
@@ -140,26 +137,25 @@
     margin-top: 2%;
 }
 
-.main .textarea .mainpanel .lastupdate .updatetitle {
+.lastupdate .updatetitle {
     font-family: rubik_Bold;
     color: #ed4443;
 }
 
-.main .textarea .mainpanel .lastupdate .updatetext {
+.lastupdate .updatetext {
     font-family: rubik_Light;
     color: #E6E6E6;
 }
 
-.main .textarea .mainpanel .lastupdate .trailer {
+.lastupdate .trailer {
     font-family: Rubik_SemiBold;
     color: #E6E6E6;
 }
 
 /* SIDE PANEL */
-
 /* HTL PANEL */
 
-.main .textarea .sidepanel .htl {
+.htl {
     background: #081017;
     border-radius: 5px;
     position: relative;
@@ -172,9 +168,9 @@
     margin-bottom: 5%;
 }
 
-/* PLAY VALORANT PANEL */
+/* SPIELE VALORANT PANEL */
 
-.main .textarea .sidepanel .play {
+.play {
     background: #081017;
     border-radius: 5px;
     position: relative;
@@ -191,7 +187,7 @@
 
 /* VALORANT ESPORTS PANEL */
 
-.main .textarea .sidepanel .esports {
+.esports {
     background: #081017;
     border-radius: 5px;
     position: relative;
@@ -204,9 +200,9 @@
     margin-bottom: 5%;
 }
 
-/* OTHER RIOT GAMES GAMES PANEL*/
+/* ANDERE SPIELE VON RIOT GAMES PANEL*/
 
-.main .textarea .sidepanel .riotgames {
+.riotgames {
     background: #081017;
     border-radius: 5px;
     position: relative;
@@ -221,7 +217,7 @@
 
 /* VALORANT TWITTER FEED PANEL */
 
-.main .textarea .sidepanel .twitterfeed {
+.twitterfeed {
     background: #081017;
     border-radius: 5px;
     position: relative;
