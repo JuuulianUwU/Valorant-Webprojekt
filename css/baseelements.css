@@ -69,10 +69,11 @@ a:hover {
     color: #E6E6E6;
     font-weight: bolder;
     font-size: x-large;
+    vertical-align: bottom;
 }
 
 .header .NavigationText {
-    font-family: rubik_Regular;
+    font-family: rubik_Bold;
     color: #E6E6E6;
 }
 
@@ -93,7 +94,7 @@ a:hover {
     display: block;
     border-radius: 5px;
     width: 60%;
-    height: 200%;
+    height: 225%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;

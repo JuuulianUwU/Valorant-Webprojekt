@@ -140,6 +140,21 @@
     margin-top: 2%;
 }
 
+.main .textarea .mainpanel .lastupdate .updatetitle {
+    font-family: rubik_Bold;
+    color: #ed4443;
+}
+
+.main .textarea .mainpanel .lastupdate .updatetext {
+    font-family: rubik_Light;
+    color: #E6E6E6;
+}
+
+.main .textarea .mainpanel .lastupdate .trailer {
+    font-family: Rubik_SemiBold;
+    color: #E6E6E6;
+}
+
 /* SIDE PANEL */
 
 /* HTL PANEL */
