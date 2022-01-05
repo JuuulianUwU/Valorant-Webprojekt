@@ -65,10 +65,10 @@ a:hover {
 }
 
 .header .HeaderText {
-    font-family: rubik_Regular;
+    font-family: rubik_SemiBold;
     color: #E6E6E6;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: xx-large;
     vertical-align: bottom;
 }
 

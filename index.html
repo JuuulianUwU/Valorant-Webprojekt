@@ -12,7 +12,9 @@ Listen => Ja (Indirekt Z. 72)
         <meta 
             charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"
         />
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/baseelements.css">
         <link rel="icon" href="./bilder/index/icons/valorant_logo.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,24 +24,25 @@ Listen => Ja (Indirekt Z. 72)
         <div class="header">
             <table border:solid; border-width: 1px, 0;>
                 <tr>
-                    <td rowspan="2"><img src="./bilder/index/icons/valorant_logo.png"></td>
-                    <td div class="HeaderText">&nbsp&nbspVALORANT Wiki</td>
+                    <td rowspan="2"><a href="./index.html"><img src="./bilder/index/icons/valorant_logo.png" width="125%"></a></td>
+                    <td div class="HeaderText"><a href="./index.html" style="color: #E6E6E6; margin-left: 30px;">VALORANT Wiki</a></td>
                 </tr>
                 <tr>
                     <td>
                         <table style="border-spacing: 10px;">
                             <tr>
                                 <!--Navigation (Navigationsleiste)-->
-                                <td class="NavigationText">AGENTS</td>
-                                <td class="NavigationText">WEAPONS</td>
-                                <td class="NavigationText">MAPS</td>
+                                <td class="NavigationText"><a href="./contents/agents.html" style="color: #E6E6E6; margin-left: 20px;">AGENTS</a></td>
+                                <td class="NavigationText"><a href="./contents/weapons.html" style="color: #E6E6E6;">WAFFEN</a></td>
+                                <td class="NavigationText"><a href="./contents/maps.html" style="color: #E6E6E6;">MAPS</a></td>
+                                <td class="NavigationText"><a href="./contents/gamemodes.html" style="color: #E6E6E6;">GAMEMODES</a></td>
                             </tr>
                         </table>
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="main">  
+        <div class="main" style="height: 230%;"> <!--Standart Größe in baseelements.css aber trotzdem hier änderbar-->
             <div class="textarea">
                 <div class="home">Home <i class="fa fa-home" style="font-size:36px;"></i></div> <!--Home Icon + Schriftzug-->
                 <div class="viewsource"><a href="https://github.com/JuuulianUwU/Valorant-Webprojekt" target="_blank">SOURCE CODE <i class="fa fa-code"></i></a></div>
@@ -116,12 +119,13 @@ Listen => Ja (Indirekt Z. 72)
                         </div>
                         <div class="MainPanelContent">
                             <div class="updatetitle"><h3>REFLEKTION: AKT 3</h3></div>
+                            <div class="updatetext"><p>Stand: 4.1.2021</p></div>
                             <br>
                             <img src="./bilder/index/content/update.png">
                             <br>
                             <br>
                             <div class="updatetext"><p>Inkludiert Chamber, neuer Battle Pass, RiotX Arcane und mehr!</p></div>
-                            <div class="trailer"><a href="https://youtu.be/-kUxOLZ71P0"><h4><u>Trailer</u></h4></a></div>
+                            <div class="trailer"><a href="https://youtu.be/-kUxOLZ71P0" style="color: #E6E6E6;"><h4><u>Trailer</u></h4></a></div>
                             <iframe width="814" height="458" src="https://www.youtube.com/embed/-kUxOLZ71P0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-bottom: 5%;"></iframe>
                         </div>
                     </div>
@@ -205,7 +209,21 @@ Listen => Ja (Indirekt Z. 72)
                 </div>
             </div>
         </div>
+         <!--Footer (Fußzeile)-->
+        <footer>
+            <div class="footer-content">
+                <h3><i>VALORANT</i>&nbsp&nbspWiki</h3>
+                Das komplette Wiki für Riot Games kompetetiven 5v5 taktischen shooter.
+                <ul class="socials">
+                    <li><a href="https://www.youtube.com/channel/UCx3Q32cQMwNBCVfTDm8WSAg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/JuuulianUwU" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/JuuulianUwU" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/julixn.png/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>Coded by <span>Julian S.</span></p>
+            </div>
+        </footer>
     </body> 
-    <!--Footer (Fußzeile)-->
-    <div class="footer">Footer Placeholder</div>
 </html>

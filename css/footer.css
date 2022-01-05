@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: rubik_light;
+    src: url('../fonts/index/rubik/Rubik-Light.ttf');
+}
+
+@font-face {
+    font-family: rubik_bold;
+    src: url('../fonts/index/rubik/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: rubik_Regular;
+    src: url('../fonts/index/rubik/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: rubik_SemiBold;
+    src: url('../fonts/index/rubik/Rubik-SemiBold.ttf');
+}
+
+
+footer{
+    position: relative;
+    background: #0E1923;
+    height: auto;
+    width: 100%;
+    font-family: rubik_Light;
+    color: #E6E6E6;
+    overflow: hidden;
+}
+
+.footer-content{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    color: #E6E6E6;
+    font-family: rubik_SemiBold;
+    font-size: x-large;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    color: #E6E6E6;
+    max-width: 500px;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #E6E6E6;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: #E6E6E6;
+}
+
+.footer-bottom{
+    background: #0E1923;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
