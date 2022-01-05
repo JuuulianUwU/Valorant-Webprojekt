@@ -1,8 +1,28 @@
+@font-face {
+    font-family: rubik_light;
+    src: url('../fonts/index/rubik/Rubik-Light.ttf');
+}
+
+@font-face {
+    font-family: rubik_bold;
+    src: url('../fonts/index/rubik/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: rubik_Regular;
+    src: url('../fonts/index/rubik/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: rubik_SemiBold;
+    src: url('../fonts/index/rubik/Rubik-SemiBold.ttf');
+}
+
 /* HEADER (Über MAIN Panel) */
 
 .header {
     background-color: transparent;
-    position: relative;
+    position: sticky;
     display: block;
     border-radius: 5px;
     width: 60%;
