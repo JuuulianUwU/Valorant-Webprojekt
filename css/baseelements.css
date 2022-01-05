@@ -48,44 +48,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* HEADER (Über MAIN Panel) */
-
-.header {
-    background-color: transparent;
-    position: relative;
-    display: block;
-    border-radius: 5px;
-    width: 60%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    margin-bottom: 0.5%;
-    
-}
-
-.header .HeaderText {
-    font-family: rubik_SemiBold;
-    color: #E6E6E6;
-    font-weight: bolder;
-    font-size: xx-large;
-    vertical-align: bottom;
-}
-
-.header .NavigationText {
-    font-family: rubik_Bold;
-    color: #E6E6E6;
-}
-
-/* Footer */
-
-.footer {
-    position: relative;
-    width: 100%;
-    background-color: #0E1923;
-    height: 30%;
-}
-
 /* Main Panel Content */
 
 .main {
@@ -118,7 +80,7 @@ a:hover {
     border-color: red;
 }
 
-.main .textarea .home {
+.main .textarea .sitetitle {
     font-size: xx-large;
     color: #E6E6E6;
     font-weight: ligther;
