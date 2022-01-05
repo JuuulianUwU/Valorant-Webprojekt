@@ -244,7 +244,9 @@ a:hover {
 .main .textarea .mainpanel .contents .contentTable .contentbox {
     width: 192px;
     height: 108px;
+    border: #0E1923 solid 0.5px;
 }
+
 
 
 /* AGENTS */
