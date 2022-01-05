@@ -1,0 +1,247 @@
+/* Dieses File enthält Grundbausteine die auf allen Seiten genutzt werden */
+/* WICHTIG: ALLE ÄNDERUNGEN DIE IN DIESEM FILE GEMACHT WERDEN HABEN AUSWIRKUNGEN AUF DAS GESAMMTE PROJEKT */
+
+/* EIGENE SCROLLBAR (Chrome) */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #081017
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #0E1923;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #0E1923;
+}
+
+/* BASE ELEMENTS (Hintergrund Farbe)*/
+
+
+body {
+    background-color: #081017;
+}
+
+fieldset {
+    border: 1px solid #F8484D;
+}
+
+/* Hyperlink Farben */
+
+a:link {
+    color: #ed4443;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ed4443;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e5a098;
+    text-decoration: underline;
+}
+
+/* HEADER (Über MAIN Panel) */
+
+.header {
+    background-color: transparent;
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    
+}
+
+.header .HeaderText {
+    font-family: rubik_Regular;
+    color: #E6E6E6;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.header .NavigationText {
+    font-family: rubik_Regular;
+    color: #E6E6E6;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: #0E1923;
+    height: 30%;
+}
+
+/* Main Panel Content */
+
+.main {
+    background-color: #0E1923;
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    width: 60%;
+    height: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border-top-style: solid;
+    border-top-color: #F8484D;
+    border-top-width: 5px;      
+}
+
+
+.main .textarea {
+    background-color: #0E1923;
+    position: relative;
+    display: block;
+    border-radius: 15px;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: rubik_light;
+    overflow: hidden;
+    border-color: red;
+}
+
+.main .textarea .home {
+    font-size: xx-large;
+    color: #E6E6E6;
+    font-weight: ligther;
+    margin-top: 50px;
+    font-family: rubik_Light;
+    position: relative;
+    display: inline-block;
+}
+
+.main .textarea .viewsource {
+    position: relative;
+    display: block;
+    font-size: normal;
+    color: #ed4443;
+    margin-top: 50px;
+    font-family: rubik_SemiBold;
+    float: right;
+}
+
+.main .textarea .mainpanel {
+    background-color: #0E1923;
+    position: absolute;
+    display: inline-block;
+    width: 73%;
+    height: auto;
+    font-family: rubik_light;
+    overflow: hidden;
+}
+
+.main .textarea .sidepanel {
+    background-color: #0E1923;
+    position: absolute;
+    display: inline-block;
+    border-radius: 5px;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    left: 74.5%;
+}
+
+/* MAIN PANEL DESIGN */
+
+.MainPanelTitle {
+    background: #F8484D;
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.MainPanelTitle .Text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; /* Gleiche Höhe wie MainPanelTitle */
+    color: #E6E6E6;
+    font-family: rubik_bold;
+    font-size: large;
+}
+
+
+
+.MainPenelContent {
+    background: #081017;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* SIDE PANEL DESIGN (Alle) */
+
+.SidePanelTitle{
+    background: #F8484D;
+    display: block;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    font-family: rubik_bold;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    top: 0;
+}
+
+.SidePanelTitle .Text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; /* Gleiche Höhe wie SidePanelTitle */
+    color: #E6E6E6;
+    font-family: rubik_bold;
+}
+
+.SidePanelContent {
+    background: #081017;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+    position: static;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* TABLE DESIGNS (Im Sidepanel) */
+
+.table {
+    position: relative;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
